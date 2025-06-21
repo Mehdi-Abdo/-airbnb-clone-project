@@ -89,3 +89,20 @@ Product Owner	- Define the product vision and user stories
 Scrum Master	- Facilitate Agile practices and sprint ceremonies
 - Remove blockers and ensure team productivity
 - Promote continuous improvement and team health
+  
+=====================================================================
+🧱 UI Component Patterns
+This section outlines the reusable UI components planned for the Airbnb Clone project. Building modular and scalable components ensures maintainability, consistency, and faster development.
+
+🔧 Planned Components
+Component Name	Description
+Navbar	A top navigation bar that includes the logo, search bar, navigation links, user menu, and login/signup buttons. It remains sticky on scroll for easy access.
+Property Card	A reusable card component to display individual property previews on the listing page. Includes image, title, location, price, and ratings.
+Footer	Contains site-wide links such as About, Help, Terms, Privacy, and social media icons. It appears at the bottom of every page.
+Search Filter	Allows users to filter properties based on location, date, price, and other criteria. May include dropdowns and sliders.
+Booking Sidebar	Appears on the detailed property page. Shows pricing, calendar for date selection, and booking button.
+Image Carousel	Displays a gallery of property images. Supports swiping, arrows, and thumbnail navigation.
+Modal	Used for login, registration, and alerts. Can be reused across various features.
+Button Variants	Styled buttons (primary, secondary, disabled, loading) used consistently throughout the UI.
+Form Inputs	Reusable form elements such as text fields, checkboxes, and dropdowns for user inputs across the site.
+Toast Notifications	Display success, error, or info messages to users with auto-dismiss and manual close options.
